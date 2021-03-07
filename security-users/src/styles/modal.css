@@ -1,0 +1,65 @@
+.field {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  margin-bottom: 5px;
+  height: 70px;
+}
+.field-1 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  height: 60px;
+  margin-bottom: 10px;
+}
+
+.field > .optional {
+  flex: auto;
+  max-width: 350px;
+}
+.field > .heading {
+  flex: 1 0 40px;
+}
+.heading {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 29px;
+  letter-spacing: -0.045em;
+  color: #4f697b;
+  margin: 20px 20px 0 0;
+}
+.heading-1 {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 29px;
+  letter-spacing: -0.045em;
+  color: #4f697b;
+  margin: 0 105px 0 0;
+}
+.altheading {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: -0.045em;
+  color: #c1c1c1;
+}
+.title {
+  width: 100%;
+  height: 84px;
+  background: #eef2f6;
+  border-radius: 3px 3px 0px 0px;
+}
+.anchor {
+  text-align: center;
+  height: 40px;
+  margin-top: 20px;
+}
+.buttons {
+  margin: 20px auto;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}

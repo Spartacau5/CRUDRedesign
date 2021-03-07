@@ -1,0 +1,86 @@
+.field {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  margin-bottom: 5px;
+  height: 70px;
+}
+.field-1 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  height: 70px;
+  margin-bottom: 20px;
+}
+
+.field > .optional {
+  flex: auto;
+  max-width: 350px;
+}
+.field > .heading {
+  flex: 1 0 60px;
+}
+.field > .radio {
+  flex: 2 0 40px;
+  margin-top: 20px;
+}
+.heading {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 29px;
+  letter-spacing: -0.045em;
+  color: #4f697b;
+  margin: 20px 20px 0 0;
+}
+.heading-1 {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 29px;
+  letter-spacing: -0.045em;
+  color: #4f697b;
+  margin: 0 120px 0 0;
+}
+.altheading {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: -0.045em;
+  color: #c1c1c1;
+}
+.title {
+  width: 100%;
+  height: 84px;
+  background: #eef2f6;
+  border-radius: 3px 3px 0px 0px;
+}
+.anchor {
+  text-align: center;
+  height: 40px;
+  margin-top: 20px;
+}
+.buttons {
+  margin: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.center {
+  text-align: center;
+}
+.add_alt {
+  width: 188px;
+  height: 55px;
+  background: #ff4a6a;
+  border-radius: 3px;
+  border-width: 0;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: -0.045em;
+  color: #ffffff;
+  margin-right: 20px;
+}

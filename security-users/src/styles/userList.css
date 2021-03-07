@@ -1,0 +1,122 @@
+.button {
+  margin: 0 20px;
+}
+.list_heading {
+  width: 100%;
+  margin: auto;
+  background: #eef2f6;
+  height: 84px;
+  border-radius: 3px 3px 0px 0px;
+  display: flex;
+  align-items: center;
+}
+.list_heading > .left {
+  flex: 3 0 100px;
+}
+.list_heading > .right {
+  flex: 1 0 200px;
+}
+.close_icon {
+  margin-left: 375px;
+}
+.title {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.user_span {
+  font-weight: bold;
+  margin: 0 60px 0 50px;
+}
+
+.view_button {
+  width: 188px;
+  height: 55px;
+  background: #ffffff;
+  border: 1px solid #4f697b;
+  border-radius: 3px;
+  vertical-align: center;
+  margin: 0 20px 0 0;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.03em;
+  color: #544d5c;
+}
+.view_text {
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 17px;
+  letter-spacing: -0.045em;
+  color: #4f697b;
+  padding-bottom: 5px;
+}
+
+.add_button {
+  width: 188px;
+  height: 55px;
+  background: #ff4a6a;
+  border-radius: 3px;
+  border-width: 0;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: -0.045em;
+  color: #ffffff;
+  margin: 20px 20px 20px 0;
+}
+.add {
+  width: 188px;
+  height: 55px;
+  background: #ff4a6a;
+  border-radius: 3px;
+  border-width: 0;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: -0.045em;
+  color: #ffffff;
+}
+.cancel {
+  width: 188px;
+  height: 55px;
+  background: #eef2f6;
+  border-radius: 3px;
+  border-width: 0;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: -0.045em;
+  color: #4f697b;
+  margin-left: 20px;
+}
+.delete {
+  width: 150px;
+  height: 55px;
+  background: #eef2f6;
+  border-radius: 3px;
+  border-width: 0;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: -0.045em;
+  color: #4f697b;
+  margin-left: 20px;
+}
+.left {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+.right {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+}
